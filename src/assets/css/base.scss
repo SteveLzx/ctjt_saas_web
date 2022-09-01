@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -webkit-overflow-scrolling: touch;
+  -webkit-touch-callout: none;
+}
+
+html,
+body {
+  min-width: 1200px;
+  width: 100%;
+  height: 100%;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  font-size: 14px;
+  font-family: PingFangSC-Regular;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+input,
+textarea {
+  -webkit-appearance: none;
+  appearance: none;
+  outline: none;
+  -webkit-user-select: auto;
+}
+
+#app {
+  height: 100%;
+}
+
+.page {
+  padding: 10px;
+}
+
+/* 详情表单单项公共样式 */
+.ctjt_form_item_class {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+
+.ctjt_margin_20r {
+  margin-right: 20px;
+}
+
+/* 富文本编辑器样式修改 */
+.w-e-text-container .placeholder {
+  z-index: 0 !important;
+}
+
+#__qiankun_microapp_wrapper_for_coach_system__ {
+  height: 100%;
+}
+
+// html{
+//   /*隐藏滚动条，当IE下溢出，仍然可以滚动*/
+//   -ms-overflow-style:none;
+//   /*火狐下隐藏滚动条*/
+//   overflow:-moz-scrollbars-none;
+// }
+
+// //谷歌适用
+// ::-webkit-scrollbar{
+//   display:none;
+// }
+
+
+/* 整个滚动条 */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+// /* 滚动条有滑块的轨道部分 */
+::-webkit-scrollbar-track-piece {
+  border-radius: 20px;
+}
+
+/* 滚动条滑块(竖向:vertical 横向:horizontal) */
+::-webkit-scrollbar-thumb {
+  height: 8px;
+  background-color: #DCDFE6;
+  -webkit-border-radius: 6px;
+  outline-offset: -2px;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+}
+
+/* 滚动条滑块hover */
+::-webkit-scrollbar-thumb:hover {
+  height: 8px;
+  background-color: #C0C4CC;
+  -webkit-border-radius: 6px;
+}
+
+/* 同时有垂直和水平滚动条时交汇的部分 */
+::-webkit-scrollbar-corner {
+  display: block;
+  /* 修复交汇时出现的白块 */
+}
+
+/* 自己写的表格样式 */
+.ctjt_table_container {
+  border-left: 1px solid #DCDFE6;
+  border-top: 1px solid #DCDFE6;
+
+  .table_border {
+    border-right: 1px solid #DCDFE6;
+    border-bottom: 1px solid #DCDFE6;
+  }
+
+  .table_tr {
+    width: 100%;
+    height: 40px;
+    background-color: #F9FAFB;
+    font-size: 14px;
+    color: #303133;
+    text-align: center;
+    line-height: 40px;
+  }
+
+  .table_td {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 60px;
+    padding: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.bgc_fff {
+  background-color: #F0F2F5;
+}
+
+.w_120 {
+  width: 120px !important;
+}
+
+.w_140 {
+  width: 140px !important;
+}
+
+.w_160 {
+  width: 160px !important;
+}
+
+.w_180 {
+  width: 180px !important;
+}
+
+.w_200 {
+  width: 200px !important;
+}
+
+.w_260 {
+  width: 260px !important;
+}
+
+.w_300 {
+  width: 300px !important;
+}
+
+.w_400 {
+  width: 400px !important;
+}
+
+.w_600 {
+  width: 600px !important;
+}
+
+input:disabled {
+  cursor: default !important;
+}
+
+.mb-20 {
+  margin-bottom: 20px !important;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.ml-20 {
+  margin-left: 20px !important;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.mr-40 {
+  margin-right: 40px;
+}
+
+.close_icon {
+  cursor: pointer;
+}
+
+.grid-content {
+  background-color: #409EFF;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 14px;
+  color: #fff;
+}
+
+.td_text_red {
+  color: $--color-warning-text;
+}
+
+.td_text_default {
+  color: #333;
+}

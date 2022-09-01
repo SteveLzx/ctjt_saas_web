@@ -1,0 +1,45 @@
+<template>
+  <div class="page">
+    <SearchTable
+      :prop-data.sync="searchForm"
+      @select-change="searchSelectChange"
+    ></SearchTable>
+    <CtjtTable
+      :tableData="tableData"
+      @option-call="tableOptionCallback"
+      @selection-change="tableSelectionChange"
+    >
+      <template slot="reference">
+        <el-button @click="dialogName = 'field'" style="float: right"
+          >字段设置</el-button
+        >
+        <CtjtSetField
+          :show-field-visable="dialogName === 'field'"
+          :field-list="originalLabelList"
+          :check-field-list="currentLabelKeyList"
+          :localstorage-key="tableLabelType"
+          :localstorage-service="'market'"
+          @submit-field="submitField"
+          @field-cancel="dialogName = ''"
+        ></CtjtSetField>
+      </template>
+    </CtjtTable>
+    <CtjtPagination
+      :prop-data="paginationData"
+      @on-size-change="tableSizeChange"
+      @on-current-change="tableCurrentChange"
+    ></CtjtPagination>
+  </div>
+</template>
+<script lang="ts">
+import Index from './list';
+
+export default class DelayedLearningApproval extends Index {}
+</script>
+<style lang="scss" scoped>
+.form {
+  border: 1px solid $--color-border-split;
+  border-bottom: 0;
+  padding: 5px 18px;
+}
+</style>

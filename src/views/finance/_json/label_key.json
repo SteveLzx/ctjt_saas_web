@@ -1,0 +1,22 @@
+{
+  "SYSTEM_FLOW_LIST_LABEL": "/finance/transaction_mg/system_flow",
+  "COLLECTION_FLOW_LIST_LABEL": "/finance/transaction_mg/collection_flow",
+  "POS_PAY_FLOW_LIST_LABEL": "/finance/transaction_mg/pos_pay_flow",
+  "BANK_TRANSFER_FLOW_LIST_LABEL": "/finance/transaction_mg/bank_transfer_flow",
+  "THIRD_PARTY_FLOW_LIST_LABEL": "/finance/transaction_mg/third_party_flow",
+  "COLLECTION_REVIEW_SET_LIST_LABEL": "/finance/transaction_review/collection_review_set",
+  "HUIZHOU_COLLECTION_REVIEW_SET_LIST_LABEL": "/finance/transaction_review/huizhou_collection_review_set",
+  "EXAM_FEE_REVIEW_OTHER_LIST_LABEL": "/finance/transaction_review/exam_fee_review_other",
+  "EXAM_FEE_REVIEW_SELF_LIST_LABEL": "/finance/transaction_review/exam_fee_review_self",
+  "EXAM_MAKEUP_FEE_REVIEW_OTHER_LIST_LABEL": "/finance/transaction_review/exam_makeup_fee_review_other",
+  "EXAM_MAKEUP_FEE_REVIEW_SELF_LIST_LABEL": "/finance/transaction_review/exam_makeup_fee_review_self",
+  "COST_PRODUCTION_FEE_REVIEW_OTHER_LIST_LABEL": "/finance/transaction_review/cost_production_fee_review_other",
+  "COST_PRODUCTION_FEE_REVIEW_SELF_LIST_LABEL": "/finance/transaction_review/cost_production_fee_review_self",
+  "CAPITAL_SUPERVISION_REVIEW_SET_LIST_LABEL": "/finance/transaction_review/capital_supervision_review_set",
+  "RECEIPT_CHANGE_MG_LIST_LABEL": "/finance/transaction_review/receipt_change_mg",
+  "STUDENT_REFUND_MG_LIST_LABEL": "/finance/transaction_review/student_refund_mg",
+  "POS_TERMINAL_NUMBER_MG_LIST_LABEL": "/finance/finance_basic_set/pos_terminal_number_mg",
+  "SANXUE_REVIEW_SET_LIST_LABEL": "/finance/transaction_review/sanxue_review_set",
+  "SANXUE_REFUND_MG_LIST_LABEL": "/finance/transaction_review/sanxue_refund_mg"
+
+}

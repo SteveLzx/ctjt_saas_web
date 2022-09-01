@@ -1,0 +1,11 @@
+{
+  "COACH_MG_COACH_LIST_LABEL": "/educational/coach_mg/coach_list",
+  "COACH_MG_TEACH_GROUP_MG_LABEL": "/educational/coach_mg/teach_group_mg",
+  "COACH_MG_COACH_DISTRIBUTE_LABEL": "/educational/coach_mg/coach_distribute",
+  "COACH_MG_COACH_MODIFY_LABEL": "/educational/coach_mg/coach_modify",
+  "TEACH_MG_STUDENT_DISTRIBUTION_LABEL": "/educational/teach_mg/student_distribution",
+  "TEACH_MG_STUDENT_LEARN_APPLY_LABEL": "/educational/teach_mg/student_learn_apply",
+  "TEACH_MG_STUDENT_LEARN_APPLY_STOP_LABEL": "/educational/teach_mg/student_learn_apply_stop",
+  "TEACH_MG_COACH_CHANGE_APPROVE_LABEL": "/educational/teach_mg/coach_change_approve",
+  "BASIC_SET_COACH_TEACH_TYPE_SET_LABEL": "/educational/basic_set/coach_teach_type_set"
+}

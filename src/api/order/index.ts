@@ -1,0 +1,9 @@
+// 牌证四期
+// 转门店列表-导出
+const API_ORDER_V1_APPROVECHANGESTORE_EXPORTCHANGESTOREAPPROVE = '/order/v1/approveChangeStore/exportChangeStoreApprove';
+// 转历史列表-导出
+const API_ORDER_V1_HISTORY = '';
+export {
+  API_ORDER_V1_APPROVECHANGESTORE_EXPORTCHANGESTOREAPPROVE,
+  API_ORDER_V1_HISTORY
+};

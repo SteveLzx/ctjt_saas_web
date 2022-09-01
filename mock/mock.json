@@ -1,0 +1,580 @@
+{
+  "/base/v1/dict/getDict": {
+    "body": [
+      {
+        "name": "驾校",
+        "dictList": [
+          {
+            "id": 1,
+            "label": "直营"
+          },
+          {
+            "id": 2,
+            "label": "加盟"
+          }
+        ]
+      }
+    ],
+    "code": 200,
+    "msg": "success"
+  },
+  "/goods/v1/queryProduct": {
+    "body": {
+      "records": [
+        {
+          "baseBrowseNumber": 0,
+          "baseRegisteredNumber": 0,
+          "browseNumber": 0,
+          "carModel": 0,
+          "className": "string",
+          "createdBy": 0,
+          "createdTime": "string",
+          "daletedBy": 0,
+          "description": "string",
+          "drivingSchoolId": 0,
+          "drivingSchoolName": "string",
+          "id": 0,
+          "isHighEndClass": 0,
+          "isInstallment": 0,
+          "isManualInput": 0,
+          "name": "string",
+          "originalPrice": 0,
+          "phaseOneAmount": 0,
+          "photoUrl": "string",
+          "registeredNumber": 0,
+          "revision": 0,
+          "salesPrice": 0,
+          "seq": "string",
+          "status": 0,
+          "subjectThree": "string",
+          "subjectTwo": "string",
+          "trainingItem": "string",
+          "updatedBy": 0
+        }
+      ],
+      "pages": 1,
+      "size": 10,
+      "total": 1
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/base/v1/oss/uploadImg": {
+    "body": {
+      "name": "https://dss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=3228549874,2173006364&fm=26&gp=0.jpg"
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/user/v1/users/pwLogin": {
+    "body": {
+      "token": "hasdfasdfaeawer"
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/goods/v1/productExt": {
+    "body": {
+      "records": [
+        {
+          "code": "SX001",
+          "id": "123",
+          "name": "散学1",
+          "price": 100,
+          "status": 1,
+          "verificationMode": 1
+        }
+      ],
+      "pages": 1,
+      "size": 10,
+      "total": 1
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/goods/v1/fee": {
+    "body": {
+      "records": [
+        {
+          "amount": 100,
+          "carModel": "",
+          "code": "SX20210616",
+          "drivingSchoolId": "16",
+          "id": 123,
+          "name": "费用1",
+          "status": 1,
+          "verificationType": 1
+        }
+      ],
+      "pages": 1,
+      "size": 10,
+      "total": 1
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/goods/v1/classes": {
+    "body": {
+      "records": [
+        {
+          "carModel": "[{\"id\":1,\"label\":\"C1\"},{\"id\":2,\"label\":\"C2\"}]",
+          "cityId": "440300",
+          "cityName": "深圳市",
+          "drivingSchoolId": "16",
+          "highEndClass": true,
+          "id": "123",
+          "installment": true,
+          "name": "PG01",
+          "otherSpace": true,
+          "phaseOneAmount": "200",
+          "price": "3000",
+          "status": 0,
+          "type": 1
+        }
+      ],
+      "pages": 1,
+      "size": 10,
+      "total": 1
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/goods/v1/examFee": {
+    "body": {
+      "records": [
+        {
+          "beginDate": "2021-06-10",
+          "classesId": "001",
+          "classesName": "费用01",
+          "containFee": true,
+          "endDate": "2021-06-16",
+          "id": "123",
+          "resitCount": 1,
+          "status": 0
+        }
+      ],
+      "pages": 1,
+      "size": 10,
+      "total": 1
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/good/v1/classes/info/list": {
+    "body": {
+      "records": [
+        {
+          "carModel": "[{\"id\":1,\"label\":\"C1\"},{\"id\":2,\"label\":\"C2\"}]",
+          "cityId": "440300",
+          "cityName": "深圳市",
+          "drivingSchoolId": "16",
+          "highEndClass": true,
+          "id": "123",
+          "installment": true,
+          "name": "PG01",
+          "otherSpace": true,
+          "phaseOneAmount": "200",
+          "price": "3000",
+          "status": 0,
+          "type": 1
+        }
+      ],
+      "pages": 1,
+      "size": 10,
+      "total": 1
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/sale/source-do/querySourcePage": {
+    "body": {
+      "current": 0,
+      "data": [
+        {
+          "id": "123",
+          "name": "上门服务",
+          "status": 1
+        }
+      ],
+      "pageCount": 0,
+      "pageSize": 0,
+      "total": 0
+    },
+    "code": 200,
+    "msg": "success"
+  },
+  "/sale/source-do/createSource": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/sale/source-do/modifySource": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/sale/source-do/updateSourceStatusById": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/user/v1/customer/queryUserCustomerDetail": {
+    "body": {
+      "drivingSchoolId": "160",
+      "drivingSchoolName": "东莞市广仁机动车驾驶员培训有限公司",
+      "entryTime": "2012-03-09 12:00:00",
+      "mobile": "18002800776",
+      "postType": 2,
+      "regionId": "219",
+      "regionName": "城区片区",
+      "status": 1,
+      "storeCode": "01-D",
+      "storeId": "245",
+      "storeName": "主山",
+      "storeScale": 0,
+      "userName": "钟银娟"
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/sale/market-do/queryMarketList": {
+    "body": [
+      {
+        "commissionType": 1,
+        "createTime": "2021-06-16 14:10:06",
+        "createdName": "刘德华",
+        "discounts": "10",
+        "firstLevelName": "集团大客户",
+        "id": "123",
+        "recommend": 1,
+        "remark": "协议号001",
+        "secondLevelName": "深大代理A类",
+        "status": 0
+      }
+    ],
+    "code": 200,
+    "msg": ""
+  },
+  "/order/v1/scattered/queryScatteredListPage": {
+    "body": {
+      "current": 0,
+      "data": [
+        {
+          "amount": 100,
+          "createdTime": "2021-06-17 10:10:06",
+          "discountAmount": 10,
+          "id": "123",
+          "idNo": "429006445811255228",
+          "mobile": "18822825395",
+          "name": "lzx",
+          "period": 10,
+          "presentPeriod": 1,
+          "regionName": "福田",
+          "seq": "20210617104211",
+          "storeName": "孖岭"
+        }
+      ],
+      "pageCount": 0,
+      "pageSize": 0,
+      "total": 0
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/cost/queryResultPage": {
+    "body": {
+      "data": [
+        {
+          "id": 1,
+          "regionName": 21,
+          "storeName": "罗湖",
+          "storePattern": "直营",
+          "seq": "2021020356845",
+          "userName": "李四",
+          "idNo": "530321199512200915",
+          "mobile": "18874541414",
+          "balance": 0,
+          "learnType": "初学",
+          "classesName": "TG",
+          "carModel": "C1",
+          "acceptNumber": "200140124",
+          "coachName": "王教练",
+          "subject": 1,
+          "examNumber": 2,
+          "examAddress": "西丽",
+          "examDate": "2021-07-03",
+          "examTime": "09:30",
+          "createdTime": "2021-06-24",
+          "acceptUpdatedTime": "2021-06-24",
+          "operatorName": "系统自动",
+          "teachingType": "普通"
+        },
+        {
+          "id": 2,
+          "regionName": 24,
+          "storeName": "福田",
+          "storePattern": "直营",
+          "seq": "2021020356846",
+          "userName": "王五",
+          "idNo": "530321199512200915",
+          "mobile": "18874541414",
+          "balance": 350,
+          "learnType": "增驾",
+          "classesName": "TG",
+          "carModel": "C1",
+          "acceptNumber": "200140124",
+          "coachName": "王教练",
+          "subject": 2,
+          "examNumber": 2,
+          "examAddress": "牛湖",
+          "examDate": "2021-07-03",
+          "examTime": "09:30",
+          "createdTime": "2021-06-24",
+          "acceptUpdatedTime": "2021-06-24",
+          "operatorName": "系统自动",
+          "teachingType": "智能带教"
+        },
+        {
+          "id": 3,
+          "regionName": 24,
+          "storeName": "西丽",
+          "storePattern": "直营",
+          "seq": "2021020356847",
+          "userName": "张麻子",
+          "idNo": "530321199512200915",
+          "mobile": "18874541414",
+          "balance": 400,
+          "learnType": "增驾",
+          "classesName": "TG",
+          "carModel": "C2",
+          "acceptNumber": "200140124",
+          "coachName": "王教练",
+          "subject": 3,
+          "examNumber": 2,
+          "examAddress": "牛湖",
+          "examDate": "2021-07-03",
+          "examTime": "09:30",
+          "createdTime": "2021-06-24",
+          "acceptUpdatedTime": "2021-06-24",
+          "operatorName": "系统自动",
+          "teachingType": "智能带教"
+        },
+        {
+          "id": 4,
+          "regionName": 24,
+          "storeName": "梅林",
+          "storePattern": "直营",
+          "seq": "2021020356848",
+          "userName": "小儿哇",
+          "idNo": "530321199512200915",
+          "mobile": "18874541414",
+          "balance": 20,
+          "learnType": "增驾",
+          "classesName": "TG",
+          "carModel": "C2",
+          "acceptNumber": "200140124",
+          "coachName": "王教练",
+          "subject": 4,
+          "examNumber": 2,
+          "examAddress": "牛湖",
+          "examDate": "2021-07-03",
+          "examTime": "09:30",
+          "createdTime": "2021-06-24",
+          "acceptUpdatedTime": "2021-06-24",
+          "operatorName": "系统自动",
+          "teachingType": "智能带教"
+        }
+      ],
+      "current": 1,
+      "pageCount": 0,
+      "pageSize": 0,
+      "total": 0
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/supervises": {
+    "body": {
+      "data": [
+        {
+          "acceptNumber": "string",
+          "balance": 0,
+          "capitalSubject": "string",
+          "carModel": "string",
+          "classesName": "string",
+          "drivingSchoolName": "string",
+          "id": 0,
+          "idNo": "string",
+          "learnType": "string",
+          "mobile": "string",
+          "payType": "string",
+          "regionName": "string",
+          "seq": "string",
+          "status": 0,
+          "storeName": "string",
+          "storePattern": "string",
+          "superviseAmount": 0,
+          "superviseBy": 0,
+          "superviseCreatedTime": "2021-07-05T10:23:51.682Z",
+          "superviseDate": "string",
+          "superviseId": 0,
+          "superviseName": "string",
+          "superviseStatus": 0,
+          "superviseUpdatedTime": "2021-07-05T10:23:51.682Z",
+          "teachingType": "string",
+          "transferCode": "string",
+          "userName": "string"
+        }
+      ],
+      "current": 1,
+      "pageCount": 0,
+      "pageSize": 10,
+      "total": 1
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/user/v1/info/user": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/supervises/transferCode": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/supervises/importExcel": {
+    "batchNo": "string",
+    "createdName": "string",
+    "description": "string",
+    "event": "string",
+    "fail": "string",
+    "id": 0,
+    "type": "string"
+  },
+  "/workflow/v1/examAccept/page": {
+    "body": {
+      "current": 0,
+      "data": [
+        {
+          "acceptFailReason": "string",
+          "acceptNumber": "string",
+          "balance": 0,
+          "carModel": "string",
+          "classesName": "string",
+          "drivingSchoolName": "string",
+          "id": 0,
+          "idNo": "string",
+          "learnType": "string",
+          "mobile": "string",
+          "operatorDate": "2021-07-06T03:38:28.413Z",
+          "operatorName": "string",
+          "regionName": "string",
+          "seq": "string",
+          "storeName": "string",
+          "storePattern": "string",
+          "superviseDepositDate": "2021-07-06T03:38:28.413Z",
+          "teachingType": "string",
+          "userName": "string"
+        }
+      ],
+      "pageCount": 0,
+      "pageSize": 0,
+      "total": 0
+    },
+    "code": 200,
+    "msg": "string"
+  },
+  "/user/v1/dropDownBox/queryOrganizeReq": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/goods/v1/schools/undefined/classesInfo": {
+    "body": [
+      {
+        "id": "1405452380272537602",
+        "name": "VG"
+      },
+      {
+        "id": "322935221181743536",
+        "name": "min "
+      },
+      {
+        "id": "1406821157124116481",
+        "name": "敏敏01班"
+      }
+    ],
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/subjectTrains": {
+    "body": {
+      "current": 0,
+      "data": [
+        {
+          "acceptDate": "2021-07-06T07:03:31.818Z",
+          "acceptNumber": "string",
+          "balance": 0,
+          "carModel": "string",
+          "classesName": "string",
+          "coachName": "string",
+          "drivingSchoolName": "string",
+          "flowId": 0,
+          "id": 0,
+          "idNo": "string",
+          "learnType": "string",
+          "mobile": "string",
+          "operatorDate": "2021-07-06T07:03:31.818Z",
+          "operatorName": "string",
+          "periodCar": 0,
+          "periodMachine": 0,
+          "periodTheory": 0,
+          "periodUpdateDate": "string",
+          "regionName": "string",
+          "scoreFirst": 0,
+          "scoreFirstDate": "string",
+          "scoreSecond": 0,
+          "scoreSecondDate": "string",
+          "scoreThird": 0,
+          "scoreThirdDate": "string",
+          "seq": "string",
+          "step": 0,
+          "storeName": "string",
+          "storePattern": "string",
+          "teachingType": "string",
+          "trainUpdateByName": "string",
+          "userName": "string"
+        }
+      ],
+      "pageCount": 0,
+      "pageSize": 0,
+      "total": 0
+    },
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/subjectTrains/practicalPeriod": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/subjectTrains/simulationExam": {
+    "body": {},
+    "code": 200,
+    "msg": ""
+  },
+  "/workflow/v1/subjectTrains/simulationExam/sync": {
+    "code": 200,
+    "msg": "success",
+    "body": {
+      "scoreFirst": 90,
+      "scoreFirstDate": "2021-06-28",
+      "scoreSecond": 91,
+      "scoreSecondDate": "2021-06-28",
+      "scoreThird": 0,
+      "scoreThirdDate": "2021-06-28"
+    }
+  }
+}

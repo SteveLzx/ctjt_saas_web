@@ -1,0 +1,7 @@
+{
+  "MARKET_ORDER_APPROVAL_REFUND_LIST_LABEL": "/market/order_approval/refund",
+  "MARKET_ORDER_APPROVAL_TURN_CARMODEL_LIST_LABEL": "/market/order_approval/turn_carmodel",
+  "MARKET_ORDER_APPROVAL_TURN_CLASSTYPE_LIST_LABEL": "/market/order_approval/turn_classtype",
+  "MARKET_ORDER_APPROVAL_CHANGE_LIST_LABEL": "/market/order_approval/change",
+  "MARKET_ORDER_APPROVAL_DELAYED_LEARNING_LIST_TABLE": "/market/order_approval/delayed_learning"
+}

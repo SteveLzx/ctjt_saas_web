@@ -1,0 +1,191 @@
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+
+/* ele表格样式修改 */
+label.el-form-item__label {
+  color: #333 !important;
+}
+.is-disabled .el-input__inner {
+  color: #666 !important;
+}
+.el-table th {
+  padding: 10px 0;
+  background-color: $--bg-grey !important;
+  div.cell {
+    font-size: 14px;
+    color: $--color-text;
+  }
+}
+.el-table .el-table__cell{
+  padding: 5px 0;
+}
+.el-table__body tr:hover>td{
+  background-color: $--bg-grey !important;
+}
+
+.el-table__body tr.current-row>td{
+  background-color: $--bg-table-current !important;
+}
+
+.el-table td, .el-table th.is-leaf,.el-table--border, .el-table--group{
+  border-color:$--color-border-split; 
+}
+.el-table--border::after, .el-table--group::after, .el-table::before{
+  background-color:$--color-border-split;
+}
+.el-table .cell.el-tooltip {
+  // white-space: normal;
+}
+.el-table .cell p {
+  // display:-webkit-box;
+  // text-overflow: ellipsis;
+  // overflow:hidden;
+  // -webkit-line-clamp: 2;
+  // -webkit-box-orient:vertical;
+  overflow: hidden;
+  text-overflow:ellipsis;
+  white-space: nowrap;
+}
+
+/* 按钮样式修改 */
+.el-button {
+  min-width: 98px;
+  min-height: 32px;
+  padding: 0 10px !important;
+  border-radius: 4px;
+  font-size: 14px;
+  border: 1px solid $--color-primary;
+  color: $--color-primary;
+  &.el-button--text {
+    border: 0;
+  }
+  &.el-button--info {
+    background-color: $--color-border-split;
+    color: $--color-light_text;
+    border: 0;
+  }
+  &.el-button--primary {
+    color: #ffffff;
+    background-color: $--color-primary;
+    border: 0;
+  }
+  &.el-button--success {
+    color: #ffffff;
+    background-color: $--color-success;
+    border: 0;
+  }
+  &.el-button--warning {
+    color: #ffffff;
+    background-color: $--color-warning;
+    border: 0;
+  }
+  &.el-button--danger {
+    color: #ffffff;
+    background-color: $--color-danger;
+    border: 0;
+  }
+}
+
+/* 气泡确认框样式 */
+.el-popconfirm {
+  .el-popconfirm__main {
+    margin: 14px 0;
+  }  
+}
+/* 表单组件样式修改 */
+label.el-form-item__label,
+div.el-input{
+  color: $--color-default-text;
+  font-size: 14px;
+  line-height: 32px;
+}
+div.el-form-item__content {
+  line-height: 32px;
+}
+i.el-select__caret,
+i.el-input__icon {
+  font-size: 10px;
+  line-height: 32px;
+}
+.el-range-editor.el-input__inner {
+  height: 32px;
+  padding: 0 8px;
+}
+input.el-input__inner, div.el-input__inner, div.el-cascader {
+  height: 32px;
+  line-height: 32px;
+  &::placeholder {
+    color: $--color-placeholder;
+    font-size: 14px;
+  }
+}
+
+div.el-input-number {
+  line-height: 32px;
+}
+span.el-input-number__decrease,
+span.el-input-number__increase {
+  line-height: 16px !important;
+  font-size: 10px !important;
+}
+li.el-select-dropdown__item {
+  padding: 0 15px;
+}
+/* 修改单选按钮样式,多选按钮样式 */
+.el-radio-group .el-radio, 
+.el-checkbox-group .el-checkbox {
+  margin-right: 40px;
+}
+
+/* 菜单栏更改菜单高度 */
+.el-menu-item{
+  height: 40px;
+  line-height: 40px;
+}
+.el-menu-item:hover{
+  color: #fff !important;
+}
+.el-menu--popup.el-menu--popup-right-start{
+  padding: 0!important;
+}
+
+.el-input-group__append, .el-input-group__prepend {
+  background-color: #fff;
+  border: 0;
+}
+
+.basic_aside::-webkit-scrollbar {
+  width: 0 !important;
+}
+
+/* 隐藏时间组件 此刻按钮 */
+.el-picker-panel__footer .el-button--text.el-picker-panel__link-btn {
+  display: none;
+}
+
+.el-tree-node__content{
+  height: 32px;
+}
+
+.seach_table_autocomplete {
+  li {
+    line-height: normal;
+    padding: 8px;
+
+    .idNo {
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .userName {
+      font-size: 12px;
+      color: #b4b4b4;
+    }
+
+    .highlighted .userName {
+      color: #ddd;
+    }
+  }
+}
